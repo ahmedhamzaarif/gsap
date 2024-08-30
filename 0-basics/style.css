@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+  height: 40px;
+}
+
+#box1,
+#box2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  background-color: lightblue;
+}

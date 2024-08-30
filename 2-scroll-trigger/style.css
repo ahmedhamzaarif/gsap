@@ -1,0 +1,36 @@
+* { padding: 0; margin: 0; box-sizing: border-box; font-family: "Gilroy", sans-serif; }
+html, body { height: 100%; width: 100%; }
+
+#page1,
+#page2,
+#page3,
+#page4,
+#page5{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#page2,
+#page4 {
+    background-color: #10ade1;
+}
+
+#box {
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+    background-color: crimson;
+}
+
+#page4 {
+    justify-content: flex-start;
+    padding: 50px;
+}
+#page4 h2 {
+    text-transform: uppercase;
+    font-size: 40vw;
+}

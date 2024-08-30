@@ -1,0 +1,39 @@
+* { padding: 0; margin: 0; box-sizing: border-box; font-family: "Gilroy", sans-serif; }
+html, body { height: 100%; width: 100%; }
+
+#main {
+    background-color: #252525;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cursor {
+    position: fixed;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 9;
+}
+#image {
+    width: 60vw;
+    height: 60vh;
+    position: relative;
+}
+#image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}

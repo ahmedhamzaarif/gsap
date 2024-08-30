@@ -1,34 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GSAP Slider</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GSAP demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="main">
-        <div id="center">
-            <div class="text">
-                <h1>Water.</h1>
-                <h1>Sun.</h1>
-                <h1>Tree.</h1>
-            </div>
-            <div id="one" class="img-container">
-                <img src="https://images.unsplash.com/photo-1670097939254-56f5e0d03922?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
-            </div>
-            <div id="two" class="img-container">
-                <img src="https://images.unsplash.com/photo-1511205889995-e2a998743716?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE2fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
-            </div>
-            <div id="three" class="img-container">
-                <img src="https://images.unsplash.com/photo-1670776142802-e92a5f0af880?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDl8NnNNVmpUTFNrZVF8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
-            </div>
-        </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    html,
+    body {
+      font-family: "Quicksand", sans-serif;
+    }
+    a {
+      min-width: 350px;
+      width: 45%;
+      max-width: 100%;
+    }
+    button {
+      width: 100%;
+    }
+  </style>
+  <body>
+    <div class="container py-5">
+      <h1 class="display-1 fw-normal text-center mb-5">GSAP Demo</h1>
+      <div
+        class="d-flex flex-wrap flex-stretch gap-5 align-items-center justify-content-between"
+      >
+        <a href="0-basics/">
+          <button class="btn btn-success btn-lg rounded-md">Basics</button>
+        </a>
+        <a href="1-timeline/">
+          <button class="btn btn-success btn-lg rounded-md">Timeline</button>
+        </a>
+        <a href="2-scroll-trigger/">
+          <button class="btn btn-success btn-lg rounded-md">
+            ScrollTrigger
+          </button>
+        </a>
+        <a href="3-svg-animation/">
+          <button class="btn btn-success btn-lg rounded-md">
+            SVG Animation
+          </button>
+        </a>
+        <a href="4-custom-cursor/">
+          <button class="btn btn-success btn-lg rounded-md">
+            Custom Cursor
+          </button>
+        </a>
+        <a href="5-navbar-animation/">
+          <button class="btn btn-success btn-lg rounded-md">
+            Navbar Animation
+          </button>
+        </a>
+        <a href="6-text-animation/">
+          <button class="btn btn-success btn-lg rounded-md">
+            Text Animation
+          </button>
+        </a>
+        <a href="7-slider">
+          <button class="btn btn-success btn-lg rounded-md">
+            Slider
+          </button>
+        </a>
+      </div>
     </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="script.js"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
